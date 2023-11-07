@@ -1,0 +1,62 @@
+/* Overall container styling */
+div {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Heading styling */
+h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Form container styling */
+form {
+    text-align: left;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #f0f0f0;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+}
+
+/* Input field styling */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Submit button styling */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Hover effect for the submit button */
+button:hover {
+    background-color: #0056b3;
+}

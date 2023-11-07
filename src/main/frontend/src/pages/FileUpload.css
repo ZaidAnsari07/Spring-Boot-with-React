@@ -1,0 +1,53 @@
+/* Style for the container containing the image upload component */
+div.container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the title */
+div.container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for the custom file input button */
+div.container label.custom-file-input {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+/* Hover effect for the custom file input button */
+div.container label.custom-file-input:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the selected file details and image preview */
+div.container p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Style for the image */
+div.container img {
+    max-width: 100%;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
